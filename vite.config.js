@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/hexschool-vue-homework-w1/',
   plugins: [
     vue(),
     vueDevTools(),
