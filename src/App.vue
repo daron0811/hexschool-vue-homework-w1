@@ -52,7 +52,8 @@ function resetName(item) {
         <td>{{ i.name }}</td>
         <td>{{ i.desc }}</td>
         <td>{{ i.price }}</td>
-        <td><button v-on:click="addItem(index, false)">-</button>{{ i.amount }}<button v-on:click="addItem(i)">+</button>
+        <td><button v-on:click="addItem(index, false)">-</button>{{ i.amount }}<button
+            v-on:click="addItem(i)">+</button>
         </td>
         <td><button v-on:click="resetName(index)">編輯</button></td>
       </tr>
