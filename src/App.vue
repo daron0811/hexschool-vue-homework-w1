@@ -57,7 +57,7 @@ function comfirmEdit() {
 </script>
 
 <template>
-  <table>
+  <table border=1>
     <thead>
       <th scope="col">品項</th>
       <th scope="col">描述</th>

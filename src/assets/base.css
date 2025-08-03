@@ -58,8 +58,38 @@
   font-weight: normal;
 }
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th {
+  text-align: center;
+  font-weight: bold;
+  color: var(--color-heading);
+}
+
+td {
+  text-align: center;
+  color: var(--color-text);
+}
+
+td input {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  border:#851818 5px solid;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  text-emphasis-color: var(--color-heading);
+  color: #0e418d;
+  text-shadow: #282828;
+}
+
 body {
-  min-height: 100vh;
+  min-height: 300px;
+  min-width: 300px;
   color: var(--color-text);
   background: var(--color-background);
   transition:
